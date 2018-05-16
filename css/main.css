@@ -1,0 +1,31 @@
+body{
+  margin: 0px;
+  background-color: #044D5E;
+}
+
+.under-construction{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 500px;
+  height: 300px;
+  color: white;
+  font-family: "Telegrafico";
+  text-align: center;
+}
+
+h1{
+  font-size: 60px;
+}
+
+h5{
+  font-size: 30px;
+}
+
+@font-face {
+  font-family: "Telegrafico";
+  src: url('../fonts/telegrafico.woff') format('woff'), url('../fonts/telegrafico.eot') format('embedded-opentype'), url('../fonts/telegrafico.ttf') format('truetype'), url('../fonts/telegrafico.svg') format('svg');
+}
